@@ -12,7 +12,7 @@ class TodoListView extends StatelessWidget {
   Widget build(BuildContext context) {
     if (todos.isEmpty) {
       return const Center(
-        child: Text('No todos found'),
+        child: Text('Login to add your first todo!'),
       );
     }
 
