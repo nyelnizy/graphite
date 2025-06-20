@@ -41,7 +41,7 @@ class TodoListScreen extends StatelessWidget {
     showDialog(
       context: context,
       builder: (context) => AlertDialog(
-        title: const Text('Add Register'),
+        title: const Text('Add Register Todo'),
         content: TextField(
           controller: textController,
           decoration: const InputDecoration(hintText: 'Enter todo title'),
