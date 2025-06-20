@@ -44,7 +44,7 @@ class TodoListScreen extends StatelessWidget {
         title: const Text('Add Register Todo'),
         content: TextField(
           controller: textController,
-          decoration: const InputDecoration(hintText: 'Sell of all'),
+          decoration: const InputDecoration(hintText: 'Card of all'),
           autofocus: true,
         ),
         actions: [
