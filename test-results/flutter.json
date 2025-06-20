@@ -1,0 +1,65 @@
+{"protocolVersion":"0.1.1","runnerVersion":null,"pid":27076,"type":"start","time":0}
+{"suite":{"id":0,"platform":"vm","path":"/home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_model_test.dart"},"type":"suite","time":0}
+{"test":{"id":1,"name":"loading /home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_model_test.dart","suiteID":0,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":1}
+{"suite":{"id":2,"platform":"vm","path":"/home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"suite","time":5}
+{"test":{"id":3,"name":"loading /home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart","suiteID":2,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":5}
+{"suite":{"id":4,"platform":"vm","path":"/home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_item_test.dart"},"type":"suite","time":6}
+{"test":{"id":5,"name":"loading /home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_item_test.dart","suiteID":4,"groupIDs":[],"metadata":{"skip":false,"skipReason":null},"line":null,"column":null,"url":null},"type":"testStart","time":6}
+{"count":3,"time":6,"type":"allSuites"}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":"http://127.0.0.1:33265/hIZsn2qYtbA=/","observatoryUri":"http://127.0.0.1:33265/hIZsn2qYtbA=/"}}]
+{"testID":1,"messageType":"print","message":"Warning: A tag was used that wasn't specified in dart_test.yaml.\n  units was used in the suite itself\n","type":"print","time":1569}
+{"testID":1,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1576}
+{"group":{"id":6,"suiteID":0,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":null,"column":null,"url":null},"type":"group","time":1580}
+{"group":{"id":7,"suiteID":0,"parentID":6,"name":"Todo Model","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":6,"column":3,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_model_test.dart"},"type":"group","time":1581}
+{"test":{"id":8,"name":"Todo Model should create todo with default values","suiteID":0,"groupIDs":[6,7],"metadata":{"skip":false,"skipReason":null},"line":7,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_model_test.dart"},"type":"testStart","time":1581}
+{"testID":8,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1616}
+{"test":{"id":9,"name":"Todo Model should create todo with custom values","suiteID":0,"groupIDs":[6,7],"metadata":{"skip":false,"skipReason":null},"line":16,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_model_test.dart"},"type":"testStart","time":1618}
+{"testID":9,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1624}
+{"test":{"id":10,"name":"Todo Model copyWith should update specified fields","suiteID":0,"groupIDs":[6,7],"metadata":{"skip":false,"skipReason":null},"line":31,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_model_test.dart"},"type":"testStart","time":1626}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":"http://127.0.0.1:33269/NWcazwsG4mc=/","observatoryUri":"http://127.0.0.1:33269/NWcazwsG4mc=/"}}]
+{"testID":10,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1629}
+{"test":{"id":11,"name":"Todo Model copyWith should keep original values when not specified","suiteID":0,"groupIDs":[6,7],"metadata":{"skip":false,"skipReason":null},"line":44,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_model_test.dart"},"type":"testStart","time":1630}
+{"testID":11,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1633}
+{"testID":3,"messageType":"print","message":"Warning: A tag was used that wasn't specified in dart_test.yaml.\n  units was used in the suite itself\n","type":"print","time":1850}
+{"testID":3,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":1854}
+{"group":{"id":12,"suiteID":2,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":11,"line":null,"column":null,"url":null},"type":"group","time":1854}
+{"group":{"id":13,"suiteID":2,"parentID":12,"name":"TodoProvider","metadata":{"skip":false,"skipReason":null},"testCount":11,"line":11,"column":3,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"group","time":1854}
+{"test":{"id":14,"name":"TodoProvider initial state should have empty todos","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":12,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1855}
+{"testID":14,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1875}
+{"test":{"id":15,"name":"TodoProvider addTodo should add new todo","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":18,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1876}
+{"testID":15,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1890}
+{"test":{"id":16,"name":"TodoProvider toggleTodo should change completion status","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":26,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1891}
+{"testID":16,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1895}
+{"test":{"id":17,"name":"TodoProvider toggleTodo should do nothing for invalid id","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":43,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1896}
+{"testID":17,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1899}
+{"test":{"id":18,"name":"TodoProvider deleteTodo should remove todo","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":52,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1900}
+{"testID":18,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1907}
+{"test":{"id":19,"name":"TodoProvider deleteTodo should do nothing for invalid id","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":61,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1908}
+{"testID":19,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1911}
+{"test":{"id":20,"name":"TodoProvider updateTodo should change title","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":70,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1913}
+{"testID":20,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1916}
+{"test":{"id":21,"name":"TodoProvider updateTodo should do nothing for invalid id","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":79,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1917}
+
+[{"event":"test.startedProcess","params":{"vmServiceUri":"http://127.0.0.1:38351/Z0Oa102_dN0=/","observatoryUri":"http://127.0.0.1:38351/Z0Oa102_dN0=/"}}]
+{"testID":21,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1919}
+{"test":{"id":22,"name":"TodoProvider completedTodos should only return completed todos","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":88,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1920}
+{"testID":22,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1922}
+{"test":{"id":23,"name":"TodoProvider activeTodos should only return active todos","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":103,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1922}
+{"testID":23,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1925}
+{"test":{"id":24,"name":"TodoProvider should notify listeners on changes","suiteID":2,"groupIDs":[12,13],"metadata":{"skip":false,"skipReason":null},"line":116,"column":5,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_provider_test.dart"},"type":"testStart","time":1925}
+{"testID":24,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":1928}
+{"testID":5,"messageType":"print","message":"Warning: A tag was used that wasn't specified in dart_test.yaml.\n  units was used in the suite itself\n","type":"print","time":2192}
+{"testID":5,"result":"success","skipped":false,"hidden":true,"type":"testDone","time":2193}
+{"group":{"id":25,"suiteID":4,"parentID":null,"name":"","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":null,"column":null,"url":null},"type":"group","time":2193}
+{"group":{"id":26,"suiteID":4,"parentID":25,"name":"TodoItem","metadata":{"skip":false,"skipReason":null},"testCount":4,"line":10,"column":3,"url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_item_test.dart"},"type":"group","time":2193}
+{"test":{"id":27,"name":"TodoItem should display todo title","suiteID":4,"groupIDs":[25,26],"metadata":{"skip":false,"skipReason":null},"line":165,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":20,"root_column":5,"root_url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_item_test.dart"},"type":"testStart","time":2193}
+{"testID":27,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2693}
+{"test":{"id":28,"name":"TodoItem should show checkbox reflecting completion status","suiteID":4,"groupIDs":[25,26],"metadata":{"skip":false,"skipReason":null},"line":165,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":35,"root_column":5,"root_url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_item_test.dart"},"type":"testStart","time":2693}
+{"testID":28,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2768}
+{"test":{"id":29,"name":"TodoItem should show line-through for completed todos","suiteID":4,"groupIDs":[25,26],"metadata":{"skip":false,"skipReason":null},"line":165,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":60,"root_column":5,"root_url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_item_test.dart"},"type":"testStart","time":2768}
+{"testID":29,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":2798}
+{"test":{"id":30,"name":"TodoItem should enter edit mode when edit button pressed","suiteID":4,"groupIDs":[25,26],"metadata":{"skip":false,"skipReason":null},"line":165,"column":5,"url":"package:flutter_test/src/widget_tester.dart","root_line":79,"root_column":5,"root_url":"file:///home/nyel/Documents/Upwork/Construculator/cm_sample/test/units/todo_item_test.dart"},"type":"testStart","time":2798}
+{"testID":30,"result":"success","skipped":false,"hidden":false,"type":"testDone","time":3002}
+{"success":true,"type":"done","time":3351}
